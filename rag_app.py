@@ -14,7 +14,7 @@ import re
 st.set_page_config(page_title="📸 AI Chatbot with Image Retrieval", page_icon="🤖", layout="wide")
 
 # Google Gemini API Key
-GEMINI_API_KEY = "AIzaSyD3wWkZBCq4ItfipexZ7NiUQLCAsw8IeCs"  # Replace with your API key
+GEMINI_API_KEY = "API key"  # Replace with your API key
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Load Sentence Transformer model
