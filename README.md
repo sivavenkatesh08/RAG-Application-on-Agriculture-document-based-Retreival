@@ -83,15 +83,11 @@ project-root/
 
 │____extracted
 
-
      ├── extracted_texts/ 
-     
                                
      ├── extracted_images/ 
      
-     
      ├── extracted_tables/
-     
      
 ├── documentss_index.faiss
 
