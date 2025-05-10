@@ -79,16 +79,37 @@ Intuitive PDF uploader, language selector, and avatar-styled interaction.
 **📁 Folder Structure**
 
 project-root/
+
+
 │____extracted
-     ├── extracted_texts/       # Extracted text files
-     ├── extracted_images/      # Extracted images from PDFs
-     ├── extracted_tables/      # Placeholder for extracted tables
-├── documentss_index.faiss # FAISS index for documents
-├── metadatass.npy         # Metadata for text embeddings
-├── image_indexss.faiss    # FAISS index for images
-├── image_metadatass.npy   # Metadata for image embeddings
-├── image_text_mapss.npy   # Mapping between image and corresponding text
+
+
+     ├── extracted_texts/ 
+     
+                               
+     ├── extracted_images/ 
+     
+     
+     ├── extracted_tables/
+     
+     
+├── documentss_index.faiss
+
+
+├── metadatass.npy   
+
+
+├── image_indexss.faiss
+
+
+├── image_metadatass.npy
+
+
+├── image_text_mapss.npy
+
+
 └── rag_app.py 
+
 
 **🌍 Supported Languages**
 English (en)
